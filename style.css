@@ -9,14 +9,25 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
-    background-color: #f2f2f2;
+    background-color: #eae0d5;
+}
+
+header {
+    background-color: #eae0d5;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: left;
 }
 
 h1 {
     color: #333333;
+    background-color: #f9f9f9;
+    border-radius: 10px;
 }
 
 nav ul {
+    background-color: #f9f9f9;
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -24,7 +35,9 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 10px 100px;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li a {
@@ -43,69 +56,20 @@ nav ul li a:hover::after {
     background-color: #ff0000; /* Color del subrayado */
 }
 
-header {
-    background-color: #ffffff;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-h1 {
-    color: #333333;
-    margin-bottom: 20px;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-nav ul li {
-    margin: 0 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333333;
-}
-
-.barra-busqueda {
-    display: flex;
-    align-items: center;
-}
-
-.barra-busqueda input[type="text"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-.barra-busqueda button[type="submit"] {
-    padding: 10px 20px;
-    background-color: #333333;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 .content {
     display: flex;
 }
 
 .titulo-ejemplo{
     flex: 1;
+    float: left;
     padding: 20px;
     margin: 20px;
     background-color: #ffffff;
-    float: left;
+    border-radius: 10px;
 }
 
-aside {
+aside{
     background-color: #f9f9f9;
     padding: 20px;
     margin: 20px;
@@ -120,7 +84,7 @@ h2 {
     text-align: center;
 }
 
-form input[type="email"] {
+input[type="email"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -128,59 +92,33 @@ form input[type="email"] {
     width: 100%;
 }
 
-form button[type="submit"] {
+
+button[type="submit"] {
     padding: 10px 20px;
     background-color: #333333;
     color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
 
-.content {
-    display: flex;
 }
-/*
-.doctor-image {
-    margin: 20px;
-}
-
-.doctor-image img {
-    width: 300px;
-    height: auto;
-    border-radius: 5px;
-}
-
-.doctor-image-2 {
-    float: right;
-    padding-right: 50px;
-    margin: 20px;
-    width: 675px;
-    border-radius: 5px;
-}
-*/
 
 main {
     flex: 1;
     padding: 20px;
     margin: 20px;
     background-color: #ffffff;
+    border-radius: 10px;
 }
 
 section {
     margin-bottom: 20px;
 }
 
-h2 {
-    color: #333333;
-    margin-bottom: 10px;
-}
-
 footer {
-    background-color: #333333;
+    background-color: #c2a83e;
     padding: 20px;
     color: #ffffff;
-    text-align: center;
 }
 
 p a{
@@ -189,7 +127,7 @@ p a{
 }
 
 #portada {
-    width: 50%;
+    width: 48%;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
@@ -211,3 +149,34 @@ p a{
     line-height: 1.5;
 }
 
+.qs-parrafo{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#qs-portada {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#portada-1{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.aside-contenido-1{
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 5px;
+    float: left;
+    width: 605px;
+
+}

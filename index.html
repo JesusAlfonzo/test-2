@@ -10,57 +10,58 @@
 
 <body>
     <!--Titulo principal de la pagina (header)-->
-    <header id="inicio">
-        <h1>Centro de Investigación Biológica</h1>
+    <header>
+        <h1>Centro de Investigación Biológica (C.I.B)</h1>
+
 
         <!--Barra de navegación-->
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#vitaminas">Vitaminas</a></li>
-                <li><a href="#cuerpo">Cuerpo Humano</a></li>
+                <li><a href="#Alimentacion">Alimentación</a></li>
+                <li><a href="#cuerpo">Cuerpo</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
-
-            <!--Barra de busqueda en la barra de navegación-->
-            <div class="barra-busqueda">
-                <input type="text" placeholder="Buscar..." />
-                <button type="submit">Buscar</button>
-            </div>
         </nav>
     </header>
+
 
     <!--Section perteneciente a titulo introductorio del lugar (laboratorio)-->
     <section>
         <article class="titulo-ejemplo">
-            <h1>¿Quienes Somos?</h1>
-            <p>Esto es un titulo de ejemplo encargado de mostar en pantalla una informacion especifica.
-                <br>
-                Esto es un titulo de ejemplo encargado de mostar en pantalla una informacion especifica.
-                <br>
-                Esto es un titulo de ejemplo encargado de mostar en pantalla una informacion especifica.
-                <br>
-                Esto es un titulo de ejemplo encargado de mostar en pantalla una informacion especifica.
-            </p>
+            <img src="Assets/Stock-photos/medico.jpg" alt="medico" id="qs-portada">
+            <aside class="qs-aside">
+                <h2 id="qs-titulo">¿Quienes Somos?</h2>
+                <p class="qs-parrafo"> Somos el Centro de Investigación Biológica de Caracas, encargados de brindar las
+                    noticias
+                    mas importantes e investigaciones sobre el area de salud, apoyando a nuestros usuarios a mantener un
+                    estilo de vida
+                    que evite posibles enfermedades y siempre educar con información veraz.
+                </p>
+            </aside>
+
+
         </article>
 
         <!--Newsletter (ingrese su correo electronico)-->
-        <aside>
-            <h2>Suscríbete a nuestro boletín informativo</h2>
-            <form action="formulario.txt" method="post">
-                <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required />
-                <button type="submit">Suscribirse</button>
-            </form>
-        </aside>
+        <div>
+            <aside>
+                <h2>Suscríbete a nuestro boletín informativo</h2>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required />
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </aside>
+        </div>
     </section>
 
     <!--Contenido "main-principal" de la pagina web-->
     <main>
-        <section id="vitaminas">
+        <section id="Alimentacion">
             <article>
 
                 <!--Ayuno Intermitente-->
-                <img src="ideas-de-desayunos-faciles-rapidos-y-saludables.jpeg" alt="desayuno" id="portada">
+                <img src="Assets/Stock-photos/desayuno-saludable.jpg" alt="desayuno-saludable" id="portada">
                 <aside class="aside-contenido">
                     <h2>¿El ayuno intermitente es saludable?</h2>
                     <p class="parrafo-contenido">
@@ -69,7 +70,8 @@
                         Hay muchos tipos diferentes de ayuno intermitente, como los métodos y Numerosos
                         estudios han demostrado que el ayuno intermitente puede tener beneficios importantes para el
                         cuerpo y el cerebro.
-                    <p><a href="#">Leer Más</a></p>
+
+                    <p><br><a href="alimentacion-pagina.html">Leer Más</a></p>
                     </p>
                 </aside>
             </article>
@@ -78,9 +80,9 @@
         <!--Cuerpo Humano-->
         <section id="cuerpo">
             <article>
-                <img src="medico.jpg" alt="medico" id="portada">
-                <aside class="aside-contenido">
-                    <h2>Cuerpo Humano</h2>
+                <img src="Assets/Stock-photos/Ejercicio-Fisico.jpg" alt="personas-haciendo-ejercicio" id="portada-1">
+                <aside class="aside-contenido-1">
+                    <h2>Beneficios del Ejercicio Fisico</h2>
                     <p class="parrafo-contenido">
                         El ejercicio físico regular tiene muchos beneficios para la salud física y mental. En cuanto al
                         control de peso, el ejercicio ayuda a mantener un peso saludable y a quemar calorías. Además, el
@@ -89,7 +91,7 @@
                         ejercicio fortalece los músculos y los huesos, lo que puede prevenir lesiones y enfermedades
                         como la osteoporosis. Por último, el ejercicio puede reducir el riesgo de enfermedades crónicas
                         como la diabetes tipo 2, la hipertensión arterial y algunos tipos de cáncer.
-                    <p><a href="#">Leer Más</a></p>
+                    <p><br><a href="cuerpo-ejercicio-pagina.html">Leer Más</a></p>
                     </p>
                 </aside>
             </article>
@@ -98,18 +100,24 @@
         <!--Contacto-->
         <section id="contacto">
             <article>
-                <img src="5f5b74f79bd6983b85d41918_06_CONTACTO_VIVUS.jpeg" alt="contacto-foto" id="portada">
+                <img src="Assets/Stock-photos/5f5b74f79bd6983b85d41918_06_CONTACTO_VIVUS.jpeg" alt="contacto-foto" id="portada">
                 <aside class="aside-contenido">
-                    <h2>Contacto</h2>
+                    <h2>¿Como Puedes Contactarnos?</h2>
                     <p class="parrafo-contenido">
-                        El ejercicio físico regular tiene muchos beneficios para la salud física y mental. En cuanto al
-                        control de peso, el ejercicio ayuda a mantener un peso saludable y a quemar calorías. Además, el
-                        ejercicio mejora el estado de ánimo, reduciendo el estrés, la ansiedad y la depresión. También
-                        puede mejorar la salud cerebral, el aprendizaje y la memoria, y ayudar a dormir mejor. El
-                        ejercicio fortalece los músculos y los huesos, lo que puede prevenir lesiones y enfermedades
-                        como la osteoporosis. Por último, el ejercicio puede reducir el riesgo de enfermedades crónicas
-                        como la diabetes tipo 2, la hipertensión arterial y algunos tipos de cáncer.
-                    <p><a href="#">Leer Más</a></p>
+                        Para nosotros es una maravilla saber que podemos ayudarte, asi que puedes comunicarte con
+                        nosotros siguiendo nuestras redes sociales como: <br>
+                        <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+                        <br>
+                        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                        <br>
+                        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                        <br>
+                        O si lo prefieres puedes enviarnos un correo a "CIBCARACAS@gmail.com" y contactarte por nuestros
+                        numeros telefonicos: <br>
+                        (0212-8562241) (0212-85636692)
+                        <br>
+                        Te esperamos con ansias.
+                    <p><br><a href="#">Leer Más</a></p>
                     </p>
                 </aside>
             </article>
